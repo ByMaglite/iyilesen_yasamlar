@@ -1,9 +1,12 @@
 #marka {
     font-family: 'Dancing Script', cursive;
 }
+#navbar_private{
+  background-color: #f8eee2 !important;
+}
 
 /* Main Footer */
-footer .main-footer{  padding: 20px 0;  background: hsla(165, 38%, 34%, 0.897);}
+footer .main-footer{  padding: 20px 0;  background: hsla(165, 64%, 9%, 0.897);}
 footer ul{  padding-left: 0;  list-style: none;}
 
 /* Copy Right Footer */
@@ -60,7 +63,7 @@ footer.light .footer-copyright{ background: none repeat scroll 0 0 rgba(194, 7, 
 
 ul.social-footer2 { margin: 0;padding: 0; width: auto;}
 ul.social-footer2 li {display: inline-block;padding: 0;}
-ul.social-footer2 li a:hover {background-color:#ff8d1e;}
+ul.social-footer2 li a:hover {background-color:rgb(246, 225, 225);}
 ul.social-footer2 li a {display: block; height:30px;width: 30px;text-align: center;color: #fff;}
 .btn{background-color: hsla(165, 38%, 34%, 0.897); color:#fff;}
 .btn:hover, .btn:focus, .btn.active {background: #4b92dc;color: #fff;
