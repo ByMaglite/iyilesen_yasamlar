@@ -7,16 +7,24 @@
 #bana_ulas_butonu{
   background-color: #a8d0e7ed;
 }
-.adobe{
+.adobe_normal{
 font-family: adobe-garamond-pro,serif;
-font-weight: 400;
+font-weight: 700;
 font-style: normal;
+}
+.adobe_italic{
+font-family: adobe-garamond-pro,serif;
+font-weight: 700;
+font-style: italic;
 }
 #header_tarif{
   background-image: url(./img/tarifler/sebze_backgroun1.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
+}
+#contact{
+  margin-top: 5%;
 }
 .inner{
   overflow: hidden;
