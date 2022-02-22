@@ -8,8 +8,7 @@
   background-color: #80ad8fed;
 }
 #header {
-  background: url(https://images.unsplash.com/photo-1415795854641-f4a487a0fdc8?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80) center center / cover no-repeat ;
-}
+  }
 /* Main Footer */
 footer .main-footer{  padding: 20px 0;  background: hsla(165, 64%, 9%, 0.897);}
 footer ul{  padding-left: 0;  list-style: none;}
