@@ -12,7 +12,15 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
-
+}
+.inner{
+  overflow: hidden;
+}
+.inner img{
+  transition: all 1.5s ease;
+}
+.inner:hover img{
+  transform:scale(1.5);
 }
 /* Main Footer */
 footer .main-footer{  padding: 20px 0;  background: hsla(165, 64%, 9%, 0.897);}
