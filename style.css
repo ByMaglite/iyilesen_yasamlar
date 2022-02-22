@@ -2,10 +2,15 @@
     font-family: 'Dancing Script', cursive;
 }
 #navbar_private{
-  background-color: #f7f8e7 !important;
+  background-color: #9eac8a !important;
 }
 #bana_ulas_butonu{
   background-color: #a8d0e7ed;
+}
+.adobe{
+font-family: adobe-garamond-pro,serif;
+font-weight: 400;
+font-style: normal;
 }
 #header_tarif{
   background-image: url(./img/tarifler/sebze_backgroun1.jpeg);
@@ -23,7 +28,7 @@
   transform:scale(1.5);
 }
 /* Main Footer */
-footer .main-footer{  padding: 20px 0;  background: hsla(165, 64%, 9%, 0.897);}
+footer .main-footer{  padding: 20px 0;  background: rgb(68, 87, 96);}
 footer ul{  padding-left: 0;  list-style: none;}
 
 /* Copy Right Footer */
