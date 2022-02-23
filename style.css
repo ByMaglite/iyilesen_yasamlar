@@ -10,7 +10,8 @@
 }
 .adobe_normal{
 font-family:'Noto Serif', serif;
-font-weight: 700;
+/*font-family: Arial, Helvetica, sans-serif;*/
+font-weight: 400;
 font-style: normal;
 font-size: larger;
 }
@@ -24,6 +25,8 @@ font-style: italic;
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
+  height: 10rem;
+  width:95%;
 }
 #contact{
   margin-top: 5%;
@@ -56,7 +59,7 @@ font-size: larger;
 .footer-copyright nav ul li { border-left: 1px solid #505050; display: inline-block;  line-height: 12px;  margin: 0;  padding: 0 8px;}
 .footer-copyright nav ul li a{  color: #969696;}
 .footer-copyright nav ul li:first-child { border: medium none;  padding-left: 0;}
-.footer-copyright p { color: #0e0e0e; margin: 2px 0 0;}
+.footer-copyright p { color: #0e0e0e; margin: 2px 0 0; font-size: small;}
 
 /* Footer Top */
 .footer-top{  background: #252525;  padding-bottom: 30px; margin-bottom: 30px;  border-bottom: 3px solid #222;}
