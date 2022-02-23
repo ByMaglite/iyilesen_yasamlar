@@ -11,10 +11,28 @@
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Noto+Serif&display=swap" rel="stylesheet">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <script type="text/javascript">
+        (function () {
+            var options = {
+                whatsapp: "+491749502130",
+                call_to_action: "Merhaba, bana WhatsApp'tan ulaşabilirsiniz?",
+                position: "right",
+            };
+            var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+            s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+        })();
+    </script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="app.js">
 
     <title>İyileşen Yaşamlar</title>
 
@@ -22,11 +40,11 @@
 
 <body class="bg-light">
 
+
     <!-- navbar start -->
-    <nav class="navbar navbar-light fixed-top bg-light shadow-sm">
+    <nav id="navbar_private" class="navbar navbar-light fixed-top bg-light shadow-sm">
         <div class="container-lg">
-            <p class="navbar-brand text-success  fw-bold fs-1" id="marka">iyilesenyasamlar.com</p>
-            
+            <p class="navbar-brand text-success fw-bolder fs-1 marka "> iyilesenyasamlar.com</p>
             <div class="dropdown">
                 <button class="btn btn-secondary btn-success px-3" type="button" id="dropdownMenuButton"
                     data-bs-toggle="dropdown" aria-expanded="false">
