@@ -1,19 +1,21 @@
 .marka {
     font-family: 'Dancing Script', cursive;
+    font-weight: 1000;
 }
 #navbar_private{
-  background-color: #9eac8a !important;
+  background-color: rgb(243, 236, 225) !important;
 }
 #bana_ulas_butonu{
   background-color: #a8d0e7ed;
 }
 .adobe_normal{
-font-family: adobe-garamond-pro,serif;
+font-family:'Noto Serif', serif;
 font-weight: 700;
 font-style: normal;
+font-size: larger;
 }
 .adobe_italic{
-font-family: adobe-garamond-pro,serif;
+font-family: 'Noto Serif', serif;
 font-weight: 700;
 font-style: italic;
 }
@@ -36,8 +38,15 @@ font-style: italic;
   transform:scale(1.5);
 }
 /* Main Footer */
-footer .main-footer{  padding: 20px 0;  background: rgb(68, 87, 96);}
+footer .main-footer{  padding: 20px 0;  background: rgb(41, 86, 107);}
 footer ul{  padding-left: 0;  list-style: none;}
+.footer-1{
+font-family:'Noto Serif', serif;
+font-weight: 100;
+font-style: normal;
+font-size: larger;
+
+}
 
 /* Copy Right Footer */
 .footer-copyright { background: rgb(245, 233, 233); padding: 5px 0;}
